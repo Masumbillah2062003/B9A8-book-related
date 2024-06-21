@@ -6,6 +6,7 @@ import { WishSaveData } from "../Utility/wishListTab";
 
 const BookDetails = () => {
   const data = useLoaderData();
+  console.log(data)
 
   const { id } = useParams();
 
